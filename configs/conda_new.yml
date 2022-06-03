@@ -8,6 +8,11 @@ dependencies:
   - tensorboard
   - torchvision
   - cudatoolkit=11.3
+  - scipy
+  - tqdm
+  - munch
+  - natsort
+  - ninja
   - pip:
     - opencv-python==4.5.2.52
 prefix: /zfs/kappel/conda/envs/HF-NHMT_nsh
